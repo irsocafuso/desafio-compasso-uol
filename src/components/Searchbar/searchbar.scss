@@ -1,0 +1,10 @@
+.searchbar {
+	@media only screen and (max-width: 576px) {
+		margin:15px;
+	}
+
+	input:focus {
+		border-color: #5c5c5c;
+  	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(121, 121, 121, 0.6);
+	}
+}

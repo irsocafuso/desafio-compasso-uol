@@ -1,0 +1,41 @@
+.card {
+	margin: 10px;
+	cursor: pointer;
+
+	transition: all 0.5s;
+	&:hover {
+		filter: brightness(0.9);
+	}
+}
+
+.card-body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.repo-info {
+		display: flex;
+		align-items: center;
+
+		word-break: break-word;
+	}
+
+	> div {
+		display: flex;
+		gap: 16px;
+	}
+
+	.repo-icons {
+		cursor: pointer;
+		transition: filter 0.2s;
+		align-items: center;
+		display: flex;
+		color: #737380;
+		gap: 8px;
+
+		svg {
+			align-items: flex-end;
+		}
+
+	}
+}
